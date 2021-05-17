@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%
+}
+	body {
+	background: url('../kepek/hatter.png')forestgreen repeat center center fixed;
+	color: black;
+	font: 30px/40px comic sans ms;
+	font-weight: 700;
+	margin: 0;
+	
+}
+.nev{
+	background-color: Burlywood;
+	max-width: 500px;
+	border: 10px ridge brown;
+	margin: 25px auto 25px;
+	text-align: center;
+	font: 50px/55px comic sans ms;
+}
+.grid1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 5%;
+	margin: 3rem 10%;
+}
+.en{
+	display: block;
+	
+	border-radius: 1rem;
+	padding: 2rem;
+
+}
+
+div img{
+	float: left;
+	border-radius: 1rem;
+	
+}
+.rolam{
+	display: block;
+	background-color: Burlywood;
+	border-radius: 1rem;
+	padding: 1rem;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+}
+
+.linkek {
+	background-color: black;
+	
+}
+.linkek a{
+	color: white;
+	text-decoration:none;
+	
+}
+.rolam p{
+	text-align: justify;
+	
+}
+
+.grid2{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 5%;
+	margin: 3rem 10%;
+}
+.elerhetosegek_szoveg{
+	display: block;
+	background-color: Burlywood;
+	border-radius: 1rem;
+	padding: .5rem;
+
+}
+.elerhetosegek_kep{
+	display: block;
+	
+	border-radius: 1rem;
+	padding: .5rem;
+
+}
+
+
+.elerhetosegek img{
+	border-radius: 1rem;
+	min-width: 5%;
+}
+img{
+	max-width: 100%;
+}
+
+.terv img {
+    min-width: 60%;
+}
+.elerhetosegek_szoveg a{
+	text-decoration:none;
+}
+.tervek_szoveg{
+	display: block;
+	background-color: Burlywood;
+	border-radius: 1rem;
+	padding: .5rem;
+	text-align: justify;
+}
+.grid3{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 1.5rem;
+	margin: 3rem 10%;
+}
+.felirat{
+	display: block;
+	background-color: Burlywood;
+	border-radius: .5rem;
+	padding: 1rem;
+}
